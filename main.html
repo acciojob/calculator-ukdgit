@@ -39,32 +39,32 @@
         </div>
     </div> -->
     <div class="container">
-        <div id="display"></div>
+        <div id="input" id="display"></div>
         <div class="buttons">
-            <div class="btn" onclick="clearxyz()">C</div>
-            <div class="btn" onclick="clickingxyz('/')">/</div>
-            <div class="btn" onclick="clickingxyz('*')">*</div>
+            <div class="btn" id="clr" onclick="clearxyz()">C</div>
+            <div class="btn" id="divide" onclick="clickingxyz('/')">/</div>
+            <div class="btn" id="multiply" onclick="clickingxyz('*')">*</div>
             <div class="btn" onclick="backxyz()">&larr;</div>
 
-            <div class="btn" onclick="clickingxyz('7')">7</div>
-            <div class="btn" onclick="clickingxyz('8')">8</div>
-            <div class="btn" onclick="clickingxyz('9')">9</div>
-            <div class="btn" onclick="clickingxyz('-')">-</div>
+            <div class="btn" id="block7" onclick="clickingxyz('7')">7</div>
+            <div class="btn" id="block8" onclick="clickingxyz('8')">8</div>
+            <div class="btn" id="block9" onclick="clickingxyz('9')">9</div>
+            <div class="btn" id="minus" onclick="clickingxyz('-')">-</div>
 
-            <div class="btn" onclick="clickingxyz('4')">4</div>
-            <div class="btn" onclick="clickingxyz('5')">5</div>
-            <div class="btn" onclick="clickingxyz('6')">6</div>
-            <div class="btn" onclick="clickingxyz('+')">+</div>
+            <div class="btn" id="block4" onclick="clickingxyz('4')">4</div>
+            <div class="btn" id="block5" onclick="clickingxyz('5')">5</div>
+            <div class="btn" id="block6" onclick="clickingxyz('6')">6</div>
+            <div class="btn" id="plus" onclick="clickingxyz('+')">+</div>
 
-            <div class="btn" onclick="clickingxyz('1')">1</div>
-            <div class="btn" onclick="clickingxyz('2')">2</div>
-            <div class="btn" onclick="clickingxyz('3')">3</div>
-            <div class="btn" onclick="clickingxyz('.')">.</div>
+            <div class="btn" id="block1"onclick="clickingxyz('1')">1</div>
+            <div class="btn" id="block2" onclick="clickingxyz('2')">2</div>
+            <div class="btn" id="block3" onclick="clickingxyz('3')">3</div>
+		<div class="btn" id="dot" onclick="clickingxyz('.')">.</div>
 
             <div class="btn" onclick="clickingxyz('(')">(</div>
-            <div class="btn" onclick="clickingxyz('0')">0</div>
+            <div class="btn" id="block0" onclick="clickingxyz('0')">0</div>
             <div class="btn" onclick="clickingxyz(')')">)</div>
-            <div class="btn" id="equal" onclick="evalxyz()">=</div>
+            <div class="btn" id="ans" onclick="evalxyz()">=</div>
         </div>
     </div>
     <script src="script.js"></script>
